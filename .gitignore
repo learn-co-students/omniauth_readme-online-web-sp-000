@@ -1,4 +1,5 @@
 *.sqlite3
+.env
 *.log
 tmp/Gemfile.lock
 Gemfile.lock
