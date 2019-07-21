@@ -22,9 +22,12 @@ module OmniauthLab
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     #config.active_record.raise_in_transactional_callbacks = true
+<<<<<<< HEAD
     
 
 
+=======
+>>>>>>> 6115a1cd9c555594b8a4b29ca78cc39795759def
     #config.force_ssl = true
   end
 end

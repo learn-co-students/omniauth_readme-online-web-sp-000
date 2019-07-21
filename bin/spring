@@ -10,8 +10,12 @@ unless defined?(Spring)
   if (match = Bundler.default_lockfile.read.match(/^GEM$.*?^    (?:  )*spring \((.*?)\)$.*?^$/m))
     #Gem.paths = { 'GEM_PATH' => [Bundler.bundle_path.to_s, *Gem.path].uniq }
     Gem.paths = { 'GEM_PATH' => [Bundler.bundle_path.to_s, *Gem.path].uniq.join(File::PATH_SEPARATOR) }
+<<<<<<< HEAD
     
+=======
+>>>>>>> 6115a1cd9c555594b8a4b29ca78cc39795759def
     gem 'spring', match[1]
+
     require 'spring/binstub'
   end
 end
