@@ -15,6 +15,15 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'thin'
 
+# Use omniauth for third-party sign-in
+gem 'omniauth'
+
+# Use 'dotenv-rails' to securely store the credentials for the omniauth-facebook strategy
+gem 'dotenv-rails'
+
+# Use omniauth-facebook for third-party sign-in specific to facebook
+gem 'omniauth-facebook'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
