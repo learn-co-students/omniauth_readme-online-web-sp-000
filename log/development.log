@@ -1,0 +1,15 @@
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from require at /usr/local/rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54)
+DEPRECATION WARNING: In Rails 5.1, The `:subdomains` option of HSTS config will be treated as true if
+unspecified. Set `config.ssl_options = { hsts: { subdomains: false } }` to opt out
+of this behavior.
+ (called from <top (required)> at /home/alicebrunel/omniauth_readme-online-web-sp-000/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from require at /usr/local/rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54)
+DEPRECATION WARNING: In Rails 5.1, The `:subdomains` option of HSTS config will be treated as true if
+unspecified. Set `config.ssl_options = { hsts: { subdomains: false } }` to opt out
+of this behavior.
+ (called from <top (required)> at /home/alicebrunel/omniauth_readme-online-web-sp-000/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from require at /usr/local/rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54)
+DEPRECATION WARNING: In Rails 5.1, The `:subdomains` option of HSTS config will be treated as true if
+unspecified. Set `config.ssl_options = { hsts: { subdomains: false } }` to opt out
+of this behavior.
+ (called from <top (required)> at /home/alicebrunel/omniauth_readme-online-web-sp-000/config/environment.rb:5)
