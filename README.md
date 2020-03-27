@@ -1,7 +1,7 @@
 # OmniAuth
 
 ## Objectives
-1. Describe the problem of authentication and how OmniAuth solves it.
+1.  Describe the problem of authentication and how OmniAuth solves it.
 2. Explain an OmniAuth strategy.
 3. Use OmniAuth to handle authentication in a Rails server.
 
@@ -160,7 +160,7 @@ Right away, we see our Facebook application key, `api_key=247632982388118`, and 
 
   + `scope=email` — This tells Facebook that we want to receive the user's registered email address in the login response. We didn't have to configure anything (`scope=email` is the default), but if you want to request other specific pieces of user data check out [the `omniauth-facebook` documentation](https://github.com/mkdynamic/omniauth-facebook#configuring).
   + `client_id=247632982388118` — There's our application key again, this time provided to the success callback.
-  
+
 And one for failure:
   + `cancel_url=https://localhost:3000/auth/facebook/callback` — If login fails, we'll also be redirected to our server's OmniAuth callback route. However, this time there are some nested encoded parameters that provide information about the failure:
     * `error=access_denied`
