@@ -35,7 +35,7 @@ gem 'turbolinks'
 
 gem 'omniauth'
 gem 'omniauth-facebook'
-gem 'dotenv-rails'
+gem 'dotenv-rails'    # allows for using .env file to store OAuth keys - add that file to .gitignore for security
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
