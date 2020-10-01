@@ -1,1 +1,19 @@
 <%# Add the Facebook login link here %>
+
+<% if session[:user_id] %>
+    <h1><%= @user.name %></h1>
+    <h2>Email: <%= @user.email %></h2>
+    <h2>Facebook UID: <%= @user.uid %></h2>
+    <img src="<%= @user.image %>">
+    
+    <br><br>
+    
+    <%= form_tag logout_path, method: "delete" do %>
+        <input type=submit value="Log Out">
+    <% end %>
+<% else %>
+    <h3>Facebook login</h3>
+    <%= link_to "Log in with Facebook", "/auth/facebook" %>
+<% end %>
+
+
