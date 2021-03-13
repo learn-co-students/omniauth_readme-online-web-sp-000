@@ -34,7 +34,7 @@ gem 'turbolinks'
 # gem 'capistrano-rails', group: :development
 
 gem 'omniauth-facebook'
-gem 'omniauth'
+gem 'omniauth', '~> 1.9.1'
 gem 'dotenv-rails'
 gem 'omniauth-rails_csrf_protection', '~> 0.1'
 
