@@ -13,9 +13,9 @@
 ActiveRecord::Schema.define(version: 20210325160418) do
 
   create_table "users", force: :cascade do |t|
-    t.string  "name"
-    t.string  "email"
-    t.integer "uid"
+    t.string "name"
+    t.string "email"
+    t.string "uid"
   end
 
 end
