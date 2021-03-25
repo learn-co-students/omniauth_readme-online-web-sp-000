@@ -12,7 +12,9 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+gem 'omniauth-oauth2', '~> 1.7', '>= 1.7.1'
+gem 'omniauth-facebook', '~> 8.0'
+gem 'dotenv-rails'
 gem 'thin'
 
 # Use jquery as the JavaScript library
