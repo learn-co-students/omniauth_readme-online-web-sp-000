@@ -4,4 +4,9 @@ class WelcomeController < ApplicationController
       @user = User.find(session[:user_id])
     end
   end
+
+  def destroy
+    reset_session
+    redirect_to '/'
+  end
 end
