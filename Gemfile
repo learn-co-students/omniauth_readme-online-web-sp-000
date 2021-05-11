@@ -12,7 +12,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+gem 'omniauth', '~> 1.9.1'
+gem 'omniauth-facebook'
 gem 'thin'
 
 # Use jquery as the JavaScript library
@@ -36,7 +37,7 @@ gem 'turbolinks'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-
+  gem 'dotenv-rails'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
