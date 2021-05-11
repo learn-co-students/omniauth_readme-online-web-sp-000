@@ -33,6 +33,10 @@ gem 'turbolinks'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'dotenv-rails'    # allows for using .env file to store OAuth keys - add that file to .gitignore for security
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
