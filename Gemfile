@@ -27,6 +27,16 @@ gem 'turbolinks'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'omniauth-google-oauth2', '~> 0.8.0'
+
+gem 'omniauth-instagram', '~> 1.3'
+
+gem 'omniauth', '~> 1.9', '>= 1.9.1'
+
+gem 'omniauth-facebook', '~> 8.0'
+
+gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
