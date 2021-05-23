@@ -57,6 +57,9 @@ Next, we'll need to tell OmniAuth about our app's OAuth credentials. Create a fi
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
+configure do |config|
+    config.path_prefix = '/auth'
+  end
   provider :facebook, ENV['FACEBOOK_KEY'], ENV['FACEBOOK_SECRET']
 end
 ```
