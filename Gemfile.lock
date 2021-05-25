@@ -52,6 +52,7 @@ GEM
     concurrent-ruby (1.1.8)
     crass (1.0.6)
     daemons (1.4.0)
+    device (0.0.0)
     dotenv (2.7.6)
     dotenv-rails (2.7.6)
       dotenv (= 2.7.6)
@@ -111,6 +112,9 @@ GEM
       rack-protection
     omniauth-facebook (8.0.0)
       omniauth-oauth2 (~> 1.2)
+    omniauth-github (2.0.0)
+      omniauth (~> 2.0)
+      omniauth-oauth2 (~> 1.7.1)
     omniauth-oauth2 (1.7.1)
       oauth2 (~> 1.4)
       omniauth (>= 1.9, < 3)
@@ -198,10 +202,12 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  device
   dotenv-rails
   jquery-rails
   omniauth
   omniauth-facebook
+  omniauth-github
   omniauth-rails_csrf_protection
   pry
   rails (~> 5.0)
